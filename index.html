@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="main.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan and Finance Application</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+</head>
+<body>
+    <header>
+        <h1>HARSH FINSERV</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#apply">Apply</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h2>Welcome to our Loan and Finance Service</h2>
+        <p>Get the financial assistance you need with our easy application process.</p>
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are dedicated to providing convenient and reliable financial solutions to our customers.</p>
+    </section>
+    <section id="apply">
+        <h2>Apply for a Loan</h2>
+        <form action="submit_application.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="Aadhaar Number">Aadhaar Number:</label>
+            <input type="Aadhaar Number" id="Aadhaar Number" name="Aadhaar Number" required>
+            <label for="amount">Loan Amount:</label>
+            <input type="number" id="amount" name="amount" required>
+            <label for="purpose">Purpose of Loan:</label>
+            <textarea id="purpose" name="purpose" required></textarea>
+            <button type="submit">Submit Application</button>
+        </form>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or inquiries, feel free to contact us:</p>
+        <p>Email: devjeetsaha2@gmail.com</p>
+        <p>Phone: 7980258687</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 HARSH FINSERV</p>
+    </footer>
+</body>
+</html>
